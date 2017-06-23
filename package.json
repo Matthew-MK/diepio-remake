@@ -6,7 +6,9 @@
   "scripts": {
     "watch": "./node_modules/.bin/webpack -d --watch",
     "build": "./node_modules/.bin/webpack -p",
-    "server": "node ./server/index.js"
+    "server": "node ./server/index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -36,6 +38,8 @@
     "express-logger": "0.0.3",
     "node-gyp": "^3.4.0",
     "rebuild": "^0.1.2",
-    "socket.io": "^1.7.1"
-  }
+    "socket.io": "^2.0.2",
+    "snyk": "^1.36.0"
+  },
+  "snyk": true
 }
