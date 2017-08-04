@@ -36,6 +36,6 @@
     "express-logger": "0.0.3",
     "node-gyp": "^3.4.0",
     "rebuild": "^0.1.2",
-    "socket.io": "^1.7.1"
+    "socket.io": "^2.0.0"
   }
 }
